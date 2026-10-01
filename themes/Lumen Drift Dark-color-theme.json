@@ -1,7 +1,7 @@
 {
 	"name": "Lumen Drift Dark",
 	"colors": {
-		"editor.background": "#252A36",
+		"editor.background": "#272b36",
         "editor.foreground": "#DCE6F2",
 
         "editor.lineHighlightBackground": "#56607838",
@@ -12,6 +12,27 @@
 
         "editorCursor.foreground": "#69D5FF"
 	},
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "namespace": "#FF6B81",
+        "type": "#FFD166",
+        "class": "#FFD166",
+        "struct": "#FFD166",
+        "enum": "#FFD166",
+        "interface": "#FFD166",
+
+        "function": "#59D5FF",
+        "method": "#59D5FF",
+
+        "variable": "#DCE6F2",
+        "parameter": "#FFC978",
+        "property": "#A7E86D",
+
+        "string": "#A7E86D",
+        "number": "#FFB86C",
+        "keyword": "#E879F9",
+        "operator": "#AFC9E8"
+    },
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -61,7 +82,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E879F9"
 			}
 		},
 		{
@@ -96,18 +117,18 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
+            "name": "Function, Special Method",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "#59D5FF"
+            }
+        },
 		{
 			"name": "Block Level Variables",
 			"scope": [
@@ -140,7 +161,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#FFB86C"
 			}
 		},
 		{
@@ -155,7 +176,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#A7E86D"
 			}
 		},
 		{
