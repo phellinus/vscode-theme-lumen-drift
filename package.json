@@ -1,0 +1,21 @@
+{
+  "name": "lumen-dirft-theme",
+  "displayName": "Lumen Drift",
+  "description": "A vivid VS Code theme family with dark and light variants, neon accents, and a subtle active-line glow.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.138.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lumen Drift Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lumen Drift Dark-color-theme.json"
+      }
+    ]
+  }
+}
