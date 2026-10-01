@@ -11,11 +11,16 @@
   ],
   "contributes": {
     "themes": [
-      {
+        {
         "label": "Lumen Drift Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Lumen Drift Dark-color-theme.json"
-      }
+        },
+        {
+        "label": "Lumen Drift Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lumen Drift Light-color-theme.json"
+        }
     ]
   }
 }
