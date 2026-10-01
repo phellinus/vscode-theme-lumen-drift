@@ -1,16 +1,27 @@
 {
-	"name": "Lumen Drift Dark",
+	"name": "Lumen Drift Light",
 	"colors": {
-		"editor.background": "#252A36",
-        "editor.foreground": "#DCE6F2",
+		 "editor.background": "#F7F8FC",
+  "editor.foreground": "#252936",
 
-        "editor.lineHighlightBackground": "#56607838",
-        "editor.lineHighlightBorder": "#00000000",
+  "editor.lineHighlightBackground": "#536DFE0D",
+  "editor.lineHighlightBorder": "#00000000",
 
-        "editorLineNumber.foreground": "#626978",
-        "editorLineNumber.activeForeground": "#C9D1DC",
+  "editorLineNumber.foreground": "#A1A7B3",
+  "editorLineNumber.activeForeground": "#4D5BD1",
 
-        "editorCursor.foreground": "#69D5FF"
+  "editorCursor.foreground": "#5967D8",
+  "editor.selectionBackground": "#6674D82E",
+
+  "activityBar.background": "#ECEEF5",
+  "activityBar.foreground": "#303544",
+
+  "sideBar.background": "#F1F3F8",
+  "sideBar.foreground": "#424756",
+  "sideBarTitle.foreground": "#252936",
+
+  "statusBar.background": "#ECEEF5",
+  "statusBar.foreground": "#424756"
 	},
 	"tokenColors": [
 		{
