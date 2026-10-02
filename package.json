@@ -2,25 +2,55 @@
   "name": "lumen-drift-theme",
   "displayName": "Lumen Drift",
   "description": "A vivid VS Code theme family with dark and light variants, neon accents, and a subtle active-line glow.",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "sangyu-phellinus",
+  "author": {
+    "name": "桑榆",
+    "url": "https://github.com/phellinus"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.119.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "neon",
+    "vivid",
+    "lumen",
+    "developer theme"
+  ],
+  "galleryBanner": {
+    "color": "#161616",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phellinus/vscode-theme-lumen-drift.git"
+  },
+  "homepage": "https://github.com/phellinus/vscode-theme-lumen-drift#readme",
+  "bugs": {
+    "url": "https://github.com/phellinus/vscode-theme-lumen-drift/issues"
+  },
+  "pricing": "Free",
   "contributes": {
     "themes": [
-        {
+      {
         "label": "Lumen Drift Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Lumen Drift Dark-color-theme.json"
-        },
-        {
+      },
+      {
         "label": "Lumen Drift Light",
         "uiTheme": "vs",
         "path": "./themes/Lumen Drift Light-color-theme.json"
-        }
+      }
     ]
   }
 }
