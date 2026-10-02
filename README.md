@@ -15,12 +15,16 @@ Lumen Drift 是一套同时支持深色与浅色模式的 VS Code 主题。它�
 - Neutral active-line highlight without a blue color cast
 - Coordinated title bar, activity bar, side bar, panel, terminal, and widgets
 
+![Lumen Drift Dark theme preview](./dark-theme.png)
+
 ### Lumen Drift Light
 
 - Soft near-white editor background: `#F7F8FC`
 - Darker syntax accents for comfortable daytime use
 - Matching light workbench colors with clear borders and selection states
 - The same syntax roles as the dark variant for a consistent experience
+
+![Lumen Drift Light theme preview](./light-theme.png)
 
 ## Highlights / 特色
 

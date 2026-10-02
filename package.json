@@ -2,6 +2,7 @@
   "name": "lumen-drift-theme",
   "displayName": "Lumen Drift",
   "description": "A vivid VS Code theme family with dark and light variants, neon accents, and a subtle active-line glow.",
+  "icon": "icon.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.119.0"
