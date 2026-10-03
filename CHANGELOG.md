@@ -1,9 +1,12 @@
-# Change Log
+# Changelog
 
-All notable changes to the "lumen-dirft-theme" extension will be documented in this file.
+## [1.0.1] - 2026-10-03
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Fixed
 
-## [Unreleased]
+- Improved selected-item visibility in Quick Fix menus.
+- Improved dark-theme list focus and menu selection colors.
 
-- Initial release
+## [1.0.0] - 2026-10-02
+
+- Initial release with dark and light themes.
